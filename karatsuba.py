@@ -63,10 +63,10 @@ for i in range(10):
     expected = x * y
     result = karatsuba(x, y)
     
-    print "%d and %d:" % (x,y)
-    print 'expected: ', expected
-    print 'actual:   ', result
+    print( "%d and %d:" % (x,y))
+    print( 'expected: ', expected)
+    print( 'actual:   ', result)
     if result != expected:
-        print "Error with: " + str(x) + " " + str(y)
-    print
+        print( "Error with: " + str(x) + " " + str(y))
+    print()
         
